@@ -1,0 +1,36 @@
+.stat-list {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  overflow: visible;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+  width: 70px;
+  opacity: 0.85;
+}
+
+.item-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.percentage {
+  color: #067331;
+  padding: 8px 12px;
+  background-color: rgb(215, 202, 161);
+  border-radius: 20%;
+}

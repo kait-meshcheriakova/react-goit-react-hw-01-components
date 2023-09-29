@@ -1,0 +1,25 @@
+.transaction-history {
+  border-collapse: separate;
+  width: 80%;
+  font-family: Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transaction-history th,
+.transaction-history td {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+}
+
+.transaction-history th {
+  background-color: rgb(193, 75, 120);
+  padding: 12px;
+}
+
+.transaction-history tr {
+  transition: transform 0.3s ease-in-out;
+}
